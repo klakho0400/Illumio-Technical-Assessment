@@ -8,6 +8,7 @@ Assumptions and a few explanations (important):
 - The tag_counts.csv stores all the tag count information.&nbsp;
 - The port and protocol combinations extracted are for the dstport and srcport in different files i.e dst/srcport_protocol_counts.csv (if needed can be combined too.)&nbsp;
 - The protocol.py stores a map with a list of all protocol numbers mapped to keywords ex: 6->TCP (later converted to tcp for case matching)&nbsp;
+- The files names are set and should be present otherwise might throw an error!
 
 Name of the file to store lookup table = lookup_table.csv&nbsp;
 Name of the file to store flow logs = flow_logs.txt&nbsp;
